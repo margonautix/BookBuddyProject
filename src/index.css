@@ -1,0 +1,243 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(250, 245, 221);
+  background-image: url(./assets/library.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo-image {
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* Add your own custom styles here */
+.silkscreen-regular {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-bold {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cover {
+  max-width: 150px;
+  min-width: 150px;
+}
+
+.main-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-book {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  padding: 25px;
+  max-width: 300px;
+  background-color: rgba(152, 150, 82, 0.85);
+  min-height: 350px;
+  border: 2px inset rgb(218, 205, 104);
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  box-shadow: 3px 3px 5px rgb(51, 49, 10);
+  font-family: "Silkscreen", sans-serif;
+  color: rgb(34, 26, 14);
+}
+
+.all-books {
+  min-width: 300px;
+  margin: 15px;
+}
+
+.all-books:hover {
+  transform: scale(1.05);
+}
+
+.single-book {
+  min-width: 500px;
+}
+
+.single-main {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 5px;
+  font-family: "Silkscreen";
+}
+
+form p {
+  min-width: 250px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  left: 0;
+  position: fixed;
+  top: 0;
+  padding: 0;
+  width: 100%;
+  background-color: rgba(32, 45, 22, 0.65);
+  font-size: large;
+  z-index: 1;
+  font-family: "Silkscreen", sans-serif;
+}
+
+.header,
+.unauthorized {
+  background-color: rgba(152, 150, 82, 0.85);
+  border-radius: 5px;
+  padding: 5px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 3px 3px 5px rgb(51, 49, 10);
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.search input {
+  padding: 6px 12px;
+  min-width: 500px;
+  font-family: "Silkscreen", sans-serif;
+  background-color: rgb(215, 225, 197);
+}
+
+button {
+  margin-top: auto;
+}
+
+img {
+  margin: auto;
+  border-radius: 5px;
+}
+
+.main-div:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(223, 223, 119);
+}
+
+li {
+  float: left;
+  padding: 10px;
+}
+
+li:last-child {
+  float: right;
+}
+
+li:hover {
+  background-color: rgb(57, 92, 50);
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: "Silkscreen", sans-serif;
+  color: rgb(34, 26, 14);
+  -webkit-text-stroke: 0.25px rgb(135, 154, 29);
+}
+
+h1 {
+  margin-top: 60px;
+}
+
+.registration {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.logout-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 200px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  background-color: rgba(153, 182, 131, 0.75);
+  background-color: rgba(152, 150, 82, 0.85);
+  box-shadow: 3px 3px 5px rgb(51, 49, 10);
+  border: 2px inset rgb(218, 205, 104);
+  border: solid 1px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+form {
+  width: 155px;
+  padding-left: 90px;
+  padding-right: 175px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: solid 1px;
+  border-radius: 15px;
+  background-color: rgba(153, 182, 131, 0.75);
+  display: flex;
+  flex-direction: column;
+  border: 2px inset rgb(205, 249, 147);
+  font-family: "Silkscreen", sans-serif;
+  color: rgb(34, 26, 14);
+  background-color: rgba(152, 150, 82, 0.85);
+  box-shadow: 3px 3px 5px rgb(51, 49, 10);
+  border: 2px inset rgb(218, 205, 104);
+}
+
+form input {
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-family: "Silkscreen", sans-serif;
+  background-color: rgb(215, 225, 197);
+}
+
+button {
+  min-width: 200px;
+  padding: 5px;
+  background-image: linear-gradient(rgb(200, 179, 137), rgb(238, 212, 141));
+  border: outset 2px rgb(214, 174, 100);
+  border-radius: 15px;
+  font-family: "Silkscreen", sans-serif;
+  color: rgb(34, 26, 14);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.login-button {
+  margin-left: 25px;
+}
+
+.red-text {
+  color: brown;
+}
